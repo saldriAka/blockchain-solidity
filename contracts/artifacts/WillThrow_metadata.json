@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WillThrow.sol": "WillThrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WillThrow.sol": {
+			"keccak256": "0x280c15e4fe5746e3c46552f0efa9b71136d0e297809b05e4dcc1768acfd19d5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b526323715d6ccf4747aa5b20382c8df63eabeb17255b8bb838a09e6e807ec4",
+				"dweb:/ipfs/QmUvfqAYU2Esvx3TLLpDvFCveXR6t1EAPTxVQ5bTMbTXno"
+			]
+		}
+	},
+	"version": 1
+}
