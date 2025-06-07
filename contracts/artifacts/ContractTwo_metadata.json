@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/scas.sol": "ContractTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/scas.sol": {
+			"keccak256": "0xbb56e0b3942f9fac3793878d4049e0ca1c5842143285a8b9c1ffbdb3d3261c71",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://92bc8568857784a456e00cdcf51d6be98565540f82dc24761ddc01272c367085",
+				"dweb:/ipfs/QmbitwQA7pKgbwCcDA2G2xTE7YMmaDj7sbBihR4gU38hRU"
+			]
+		}
+	},
+	"version": 1
+}
